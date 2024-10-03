@@ -1,0 +1,83 @@
+/*This styles the navigation bar so all the links are in one line*/
+
+.main-nav {
+    display: flex;
+    gap: 1.5%;
+    list-style: none;
+}
+
+.push {
+    margin-left: auto;
+}
+
+/*This styles the background for all 3 pages, as well as providing:
+font style
+font color*/
+
+body {
+    background-image: url(https://clipart-library.com/2023/1523043045-0410_TXGRA_clutter_WEB.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.main-heading, .tagline, .index-quote, .bio, .fun-facts, .skills {
+    text-align: center;
+    width: 50%;
+    background-color: white;
+    opacity: 0.9;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 10px 5px 10px;
+}
+
+.index-quote {
+    font-style: oblique;
+
+}
+
+#project-1 {
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 10px 5px 10px;
+}
+
+#p1-img {
+    height: 300px;
+    width: 500px;
+}
+
+h1, h3 {
+    font-variant-caps: small-caps;
+    text-align: center;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+.photo-1 {
+    display: grid;
+    place-items: center;
+    max-width: 100%;
+    height: auto;
+    padding: 50px 20px 50px 20px;
+    border-radius: 50%;
+}
+
+.photo-2 {
+    display: grid;
+    place-items: center;
+    max-width: 100%;
+    height: auto;
+    padding: 50px 20px 50px 20px;
+    border-radius: 50%;
+}
+
+mark {
+    background-color: white;
+}
