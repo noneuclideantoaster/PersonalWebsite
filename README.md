@@ -30,4 +30,6 @@ STYLE CSS PAGE:
 JAVASCRIPT PAGE:
     --Provides the javascript necessary to run the alert on the portfolio page.
 
-Have a great day!
+I went kind of crazy with looking up CSS documentation and tailoring what I could find to make the end product look nice. As a result, some of the CSS doesn't strictly follow the box model and includes some extracurricular tags.
+
+Thanks for your time, and have a great day!

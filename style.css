@@ -10,9 +10,9 @@
     margin-left: auto;
 }
 
-/*This styles the background for all 3 pages, as well as providing:
-font style
-font color*/
+/*This styles the background image for all 3 pages, as well as providing
+font for most of the content. Some font was tweaked to different parameters
+later in this code*/
 
 body {
     background-image: url(https://clipart-library.com/2023/1523043045-0410_TXGRA_clutter_WEB.jpg);
@@ -21,6 +21,10 @@ body {
     background-position: center;
     font-family: "Gill Sans", sans-serif;
 }
+
+/*The margins and padding parameters in this section admittedly don't adhere 
+to the box model directly. I tinkered around with them using documentation to 
+find something I liked, and applied it to the relevant divs.*/
 
 .main-heading, .tagline, .index-quote, .bio, .fun-facts, .skills {
     text-align: center;
@@ -32,10 +36,15 @@ body {
     padding: 5px 10px 5px 10px;
 }
 
+/*This just adds some flair to my quote box*/
+
 .index-quote {
     font-style: oblique;
 
 }
+
+/*This adds formatting to the text and content of the project div. 
+The project screencap is adjusted for size just below.*/
 
 #project-1 {
     background-color: white;
@@ -51,6 +60,9 @@ body {
     width: 500px;
 }
 
+/*I decided I wanted to stylize these headings a little more after I saw 
+how everything worked, so I went for it.*/
+
 h1, h3 {
     font-variant-caps: small-caps;
     text-align: center;
@@ -60,13 +72,18 @@ h1 {
     font-size: xx-large;
 }
 
+/*Centering my photos under the headings above gave me a bizarre amount of trouble. 
+I initially started out setting my margins to auto, only to find that for whatever 
+reason, they wouldn't center. After some finagling and researching, I found that 
+THIS mostly did what I wanted it to do. This ensures that these images stay centered 
+even if the window size changes.*/
+
 .photo-1 {
     display: grid;
     place-items: center;
     max-width: 100%;
     height: auto;
     padding: 50px 20px 50px 20px;
-    border-radius: 50%;
 }
 
 .photo-2 {
@@ -75,8 +92,10 @@ h1 {
     max-width: 100%;
     height: auto;
     padding: 50px 20px 50px 20px;
-    border-radius: 50%;
 }
+
+/*This just adds a background color to the highlighted text in the footer, 
+where I stored my image sources for now.*/
 
 mark {
     background-color: white;
