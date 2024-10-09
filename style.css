@@ -4,6 +4,8 @@
     display: flex;
     gap: 1.5%;
     list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10px;
 }
 
 .push {
@@ -26,7 +28,7 @@ body {
 to the box model directly. I tinkered around with them using documentation to 
 find something I liked, and applied it to the relevant divs.*/
 
-.main-heading, .tagline, .index-quote, .bio, .fun-facts, .skills {
+.main-heading, .tagline, .index-quote, .bio, .fun-facts, .skills, .pitch, .form-intro, .contact-form {
     text-align: center;
     width: 50%;
     background-color: white;
@@ -92,6 +94,15 @@ even if the window size changes.*/
     max-width: 100%;
     height: auto;
     padding: 50px 20px 50px 20px;
+}
+
+.photo-3 {
+    display: grid;
+    place-items: center;
+    max-width: 100%;
+    height: auto;
+    padding: 50px 20px 50px 20px;
+    opacity: .97;
 }
 
 /*This just adds a background color to the highlighted text in the footer, 
