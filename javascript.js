@@ -14,8 +14,12 @@ if (document.body.dataset.showAlert === "true") {
 const form = document.querySelector('#form')
 const submitButton = document.querySelector('#submit')
 
+//The above ensures that the form on the contact page submits correctly
+
 form.addEventListener('submit', (e) => {
   submitButton.disabled = true
   e.preventDefault()
   window.location.href = window.location.origin + '/success.html'
 })
+
+//The above ensures that the portfolio popup doesn't appear on the form page
