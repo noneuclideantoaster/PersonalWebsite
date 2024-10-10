@@ -105,6 +105,23 @@ even if the window size changes.*/
     opacity: .97;
 }
 
+.form-intro, .form {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    opacity: 0.9;
+    padding: 10px 20px 10px 20px;
+}
+
+.btn {
+    background-color: antiquewhite !important;
+    border: 1px solid black !important;
+    padding: 10px 10px 10px 10px !important;
+    text-align: center !important;
+  }
+
 /*This just adds a background color to the highlighted text in the footer, 
 where I stored my image sources for now.*/
 
